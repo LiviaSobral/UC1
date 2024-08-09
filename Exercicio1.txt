@@ -28,4 +28,4 @@ Requisitos não funcionais
 -impressão imediata da nota fiscal
 -informações não serão perdidas no caso de falha
 
-Anna Julia, Livia Heloisa, Milena.
+Trabalho feito por: Anna Julia, Livia Heloisa, Milena.
