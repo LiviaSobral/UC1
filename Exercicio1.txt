@@ -20,4 +20,12 @@ O sistema deve permitir que o mercado registre novos produtos. As informações 
 -Valor que entrou e saiu do caixa(Forma de pagamento)
 -integração com sistema de nota fiscal para dados fiscais do mercado e do consumidor case se identifique
 
+Requisitos não funcionais
+
+-carrega compras de 20 caixas sem travamentos
+-leitura de produtos em cerca de 3 segundos
+-apenas um operador tem acesso as informações
+-impressão imediata da nota fiscal
+-informações não serão perdidas no caso de falha
+
 Anna Julia, Livia Heloisa, Milena.
