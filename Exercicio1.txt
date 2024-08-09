@@ -1,31 +1,39 @@
-Requisitos Funcionais
-sistemas de gerenciamento de mercado:
-1. cadastro de produto
-O sistema deve permitir que o mercado registre novos produtos. As informações que precisam ser inceridas incluem:
--Cadastro Produto (nome do produto)
--Preço (Valor da Venda do produto)
--Validade (Data do vencimento do produto)
--quantidade no estoque (número de produtos disponiveis)
--Categoria (Corredor que ficará)
--código de barras/codigo do produto
-2. cadastro operador caixa supermercado
--Nome do operador
--Horario de trabalho
--número do caixa
-3. Registro de vendas(Emitir nota fiscal)
--Produtos vendidos (Códigos de barras/codigo do produto) quantidade e valor de venda
--data de venda
--em qual caixa foi
--desconto
--Valor que entrou e saiu do caixa(Forma de pagamento)
--integração com sistema de nota fiscal para dados fiscais do mercado e do consumidor case se identifique
-
-Requisitos não funcionais
-
--carrega compras de 20 caixas sem travamentos
--leitura de produtos em cerca de 3 segundos
--apenas um operador tem acesso as informações
--impressão imediata da nota fiscal
--informações não serão perdidas no caso de falha
-
-Trabalho feito por: Anna Julia, Livia Heloisa, Milena.
+Sistema de gerenciamento de mercado
+Requisitos funcionais:
+1.	Cadastro de produtos
+O sistema deve permitir que o mercado registre novos produtos. As informações que precisam ser inseridas incluem:
+- Cadastro Produto (nome do produto)
+- Preço (valor da venda do produto)
+- Validade (data do vencimento do produto)
+- Quantidade no estoque (número de produtos disponíveis)
+- Categoria (categorizar produto como frios, açougue, frutas, alimentos, bebidas, pet, limpeza, entre outros...)
+- Código de barras/Código do produto (código de barras do produto ou caso não possua cadastrar um número como código do produto)
+2.	Cadastro operador caixa do supermercado
+- Cadastro do operador (nome completo do operador)
+- Horário de trabalho (turno de trabalho e intervalo do operador)
+- Número do caixa (identificar em qual caixa o operador trabalhará)
+3.	Registro de vendas (emitir nota fiscal)
+- Produtos vendidos (identificação do produto vendido pelo código de barras ou código do produto e sua quantidade)
+- Data de venda (registro da data em que a venda foi realizada)
+- Em qual caixa foi (identificação de qual caixa foi realizada a venda) 
+- Desconto (registro de desconto concedido ao cliente)
+- Valor que entrou e saiu do caixa (valor final da compra e forma de pagamento – cartão, pix ou dinheiro)
+- Integração com sistema de nota fiscal para dados fiscais do mercado e do consumidor caso se identifique (sistema de integração para identificação do mercado com CNPJ e do cliente com CPF no cupom fiscal)
+Requisitos não funcionais:
+1.	Desempenho
+O sistema deve ser capaz de carregar as informações de forma rápida e eficiente, especialmente quando o mercado estiver movimentada. Por exemplo:
+Tempo de Resposta: O sistema deve responder a consultas de produtos e operadores em no máximo 2 segundos.
+Capacidade de Processamento: O sistema deve ser capaz de processar até 100 vendas simultâneas sem degradar o desempenho.
+2.	Segurança
+A segurança dos dados é crucial, especialmente quando se trata de informações dos trabalhadores. Alguns requisitos de segurança incluem:
+Proteção de Dados: Informações sensíveis dos operadores, como nome, devem ser criptografadas para evitar acessos não autorizados.
+Autenticação de Usuários: O acesso ao sistema deve ser restrito a funcionários autorizados, que devem usar credenciais (nome de usuário e senha) para fazer login.
+3.	Usabilidade
+O sistema deve ser fácil de usar, garantindo que os funcionários do mercado possam operá-lo sem dificuldades:
+Interface Intuitiva: As telas de identificação de operador e registro de vendas devem ser simples e diretas, com campos claros e botões fáceis de identificar.
+Suporte a Dispositivos: O sistema deve ser acessível somente pelos computadores dos caixas do supermercado.
+4.	Confiabilidade
+A confiabilidade garante que o sistema esteja disponível e funcione conforme esperado:
+Tempo de Atividade (Uptime): O sistema deve estar disponível pelo menos 99,9% do tempo durante o horário de funcionamento do mercado.
+Recuperação de Erros: Em caso de falha, o sistema deve ser capaz de se recuperar rapidamente, garantindo que nenhum dado importante seja perdido.
+Trabalho feito em trio: Anna Julia, Lívia Heloisa e Milena Grutka
