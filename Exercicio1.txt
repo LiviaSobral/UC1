@@ -1,0 +1,23 @@
+Requisitos Funcionais
+sistemas de gerenciamento de mercado:
+1. cadastro de produto
+O sistema deve permitir que o mercado registre novos produtos. As informações que precisam ser inceridas incluem:
+-Cadastro Produto (nome do produto)
+-Preço (Valor da Venda do produto)
+-Validade (Data do vencimento do produto)
+-quantidade no estoque (número de produtos disponiveis)
+-Categoria (Corredor que ficará)
+-código de barras/codigo do produto
+2. cadastro operador caixa supermercado
+-Nome do operador
+-Horario de trabalho
+-número do caixa
+3. Registro de vendas(Emitir nota fiscal)
+-Produtos vendidos (Códigos de barras/codigo do produto) quantidade e valor de venda
+-data de venda
+-em qual caixa foi
+-desconto
+-Valor que entrou e saiu do caixa(Forma de pagamento)
+-integração com sistema de nota fiscal para dados fiscais do mercado e do consumidor case se identifique
+
+Anna Julia, Livia Heloisa, Milena.
